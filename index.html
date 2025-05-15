@@ -7,26 +7,24 @@
     <meta name="author" content="Maria de Fatima">
     <meta name="keywords" content="HTML, CSS, JavaScript">
     <link rel="icon" type="image/svg" href="./assets/img/favicon.svg"/>
+    <link rel="stylesheet" href="./assets/css/style.css"/>
     <title>Meu Perfil</title>
 </head>
 
 <body>
-    <header>
+    <header >
 
             <!-- div conteudo de todo o Cabeçalho -->
-        <div id="header_content">
+        <div id="header_content" class="flex">
 
-            <div id="titulo">
-
+            <div>
                 <!--SEU NOME-->
-                <h1>Maria de Fatima</h1>
+                <h1>Maria de Fatima <img src="https://img.icons8.com/?size=100&id=ySWMWOXkTrUs&format=png&color=000000" alt="Caveirinha" class="icon-caveira" /></h1>
             </div>
 
-            <div id="menu">
-
+            <div class="menu">
                 <nav>
-                    <!--MARCADORES NAO ORDENADOS + LINKS -->
-                    <ul id="menu">
+                    <ul>
                         <li>
                             <a href="index.html"> Home </a>
                         </li>
@@ -35,32 +33,28 @@
                         </li>
                     </ul>
                 </nav>
-
             </div>
 
         </div>
 
     </header>
-
     <!--SECAO PRINCIPAL DA PAGINA-->
     <main>
-
         <!--SOBRE VOCE-->
-        <section id="about">
+        <section id="about" class="flex_start">
 
             <h2>Sobre a Maria</h2>
 
-            <div id="conteudo">
+            <div id="conteudo" class="flex">
                 <!--IMAGEM DO CRIADOR DO CONTEUDO-->
-                <img 
-                src="./assets/img/userfatimapraia.jpeg" 
+                <img src="./assets/img/userfatimapraia.jpeg" 
                 alt="Foto do criador desse conteudo"
-                />
+                class="img_profile"/>
 
                 <!--TEXTO SOBRE O CRIADOR DO CONTEUDO-->
                 <article id="sobre_texto">
                     <p>
-                        Olá! Estou em busca da minha primeira oportunidade no mercado de tecnologia. Atualmente, estou participando do bootcamp da Generation Brasil, onde venho me desenvolvendo como dev full stack e aprendendo na prática com projetos reais e colaborativos.
+                        Olá! Estou em busca da minha primeira oportunidade no mercado de tecnologia.Atualmente, estou participando do bootcamp da Generation Brasil, onde venho me desenvolvendo como dev full stack e aprendendo na prática com projetos reais e colaborativos.
                     </p>
                     <p>
                         Já participei da criação de alguns projetos, onde pude aplicar tecnologias como HTML, CSS, JavaScript, Java, Spring Boot e MySQL. A cada desafio, tenho reforçado meu compromisso com a aprendizagem contínua e com o trabalho em equipe.
@@ -71,17 +65,16 @@
                         Ah, e se preferir, também pode me encontrar pelos links das redes sociais aqui embaixo. Será um prazer conversar com você!
                     </p>
                 </article>
-
             </div>
 
         </section>
 
         <!-- VIDEO-->
-        <section id="video">
+        <section id="video" class="flex_start">
 
             <h2>Meu video favorito:</h2>
 
-            <div id="trilha">
+            <div id="trilha" class="flex">
                 <video width="560" height="315" controls>
                     <source src="assets/video/PEDRAdaMACELA.mp4" type="video/mp4">
                 </video>
@@ -91,16 +84,15 @@
 
     </main>
 
-    <footer>
+    <footer class="flex">
 
-        <section id="redes_sociais">
+        <section class="redes_sociais">
             <a href="https://www.linkedin.com/in/fatimaoliveira428/">
-                <img src="assets/img/linkedin.svg" alt="Linkedin" /></a>
+                <img src="assets/img/linkedin.svg" alt="Linkedin"  class="social_icon" /></a>
             <a href="https://github.com/fatima330">
-                <img src="assets/img/github.svg" alt="Github" /></a>
+                <img src="assets/img/github.svg" alt="Github"  class="social_icon"/></a>
             <a href="https://www.instagram.com/fatimaoliveira616">
-                <img src="assets/img/instagram.svg" alt="Instagram" /></a>
-
+                <img src="assets/img/instagram.svg" alt="Instagram"  class="social_icon"/></a>
         </section>
 
         <h3>Feito com ❤ por Maria de Fatima - 2025 
