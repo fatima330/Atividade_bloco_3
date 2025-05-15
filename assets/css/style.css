@@ -115,13 +115,13 @@ p{
     text-decoration: none;
 }
 
-#about{
+#about {
     flex-direction: column;
     margin: 2rem auto;
     width: 90%;
 }
 
-#conteudo{
+#conteudo {
     flex-direction: row;
     gap: 2rem;
 }
@@ -133,7 +133,7 @@ p{
     object-fit: cover;
 }
 
-#video{
+#video {
     flex-direction: column;
     margin: 2rem auto;
     width: 90;
